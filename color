@@ -1,0 +1,61 @@
+data.forEach( function(d)
+{
+if (d.danceability>0.5){
+array.push("green");}
+if(d.danceability> 0.3 & d.danceability<0.5){
+  array.push("yellow");}
+if(d.danceability> 0.0 & d.danceability<0.3){
+  array.push("red");}
+
+if (d.energy>0.5){
+array.push("green");}
+if(d.energy> 0.3 & d.energy<0.5){
+  array.push("yellow");}
+if(d.energy> 0.0 & d.energy<0.3){
+  array.push("red");}
+
+if (d.liveness>0.5){
+array.push("green");}
+if(d.liveness> 0.3 & d.liveness<0.5){
+  array.push("yellow");}
+if(d.liveness> 0.0 & d.liveness<0.3){
+  array.push("red");}
+
+if (d.speechiness>0.5){
+array.push("green");}
+if(d.speechiness> 0.3 & d.speechiness<0.5){
+  array.push("yellow");}
+if(d.speechiness> 0.0 & d.speechiness<0.3){
+  array.push("red");}
+
+if (d.valence>0.5){
+array.push("green");}
+if(d.valence> 0.3 & d.valence<0.5){
+  array.push("yellow");}
+if(d.valence> 0.0 & d.valence<0.3){
+  array.push("red");}
+})
+console.log(array);
+
+}
+
+
+
+
+var processData= function(data)
+[
+  {
+    Name:"danceability"
+    numbers: []
+    or number: data.danceability
+
+  }
+
+
+
+
+
+
+
+
+]
