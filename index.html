@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript" src="reading.js">
+
+    </script>
+    <svg></svg>
+    <div class="legend">
+
+   <div> <p class="color-name"><span class="key-dot green"></span>Higher Than 0.5</p> </div>
+   <div> <p class="color-name"><span class="key-dot yellow"></span>Between 0.3 and 0.5</p> </div>
+   <div> <p class="color-name"><span class="key-dot red"></span>Lower than 0.3</p> </div>
+   </div>
+  <style>
+    .color-name {
+      margin: 0 !important;
+    }
+    .key-dot {
+      display: inline-block;
+      height: 10px;
+      margin-right: .5em;
+      width: 10px;
+      
+    }
+    .legend div{
+      margin-right:20px;
+    }
+    .green { background-color: green;}
+    .red { background-color: red;}
+    .yellow {background-color: yellow;}
+
+  </style>
+  </body>
+</html>
